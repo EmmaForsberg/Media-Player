@@ -1,0 +1,32 @@
+.song-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 19rem;
+  margin: 1rem 0;
+}
+
+.song-info .text {
+  flex: 1;
+  text-align: center;
+}
+
+.song-info .title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.song-info .artist {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.song-info .material-symbols-outlined {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.song-info .material-symbols-outlined:hover {
+  color: #ff4081;
+}

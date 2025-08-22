@@ -1,0 +1,35 @@
+.playlistItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* skjuter ikonen till höger */
+  gap: 0.75rem;
+  padding: 0.5rem;
+}
+
+.thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.text {
+  flex: 1; /* tar allt mellanrum mellan bild och ikon */
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.artist {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.playButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* hindrar från att tryckas ihop */
+}
